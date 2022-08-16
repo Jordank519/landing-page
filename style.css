@@ -1,0 +1,146 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #1f2937;
+    margin: 0px;
+    padding: 5px;
+    flex: 1 1 100%;
+    margin: 0px;
+    
+}
+
+.links { 
+    display: flex;
+    gap: 24px;
+    list-style: none;
+    font-size: 18px;
+    color: gray;
+}
+
+.title {
+display: flex;
+font-size: 24px;
+}
+
+.body-left {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: #1f2937;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.tagline {
+    display: flex;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.tagparagraph {
+    display: flex;
+    max-width: 50%;
+}
+
+.button {
+    display: flex;
+    background-color: #3882F6;
+    color: white;
+    border: none;
+border-radius: 10px;
+padding: 15px;
+font-size: 20px;
+}
+
+.body-right {
+    display: flex;
+    flex: 1;
+    background-color: #1f2937;
+    padding: 20px;
+    justify-content: center;
+}
+
+.third-header {
+    display: flex;
+    color: #1f2937;
+    flex: 1 1 100%;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    font-size: 36px;
+    font-weight: bolder;
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+
+.third-section {
+display: flex;
+flex: 1;
+justify-content: space-evenly;
+align-items: center;
+color: gray;
+text-align: center;
+border-style: solid;
+border-width: 1em;
+margin: 0px;
+}
+
+.testimonial {
+display: flex;
+background-color: #E5E7EB;
+color: #1f2937;
+padding: 180px;
+justify-content: center;
+align-items: center;
+font-size: 36px;
+font-style: italic;
+border-style: solid;
+border-width: 1em;
+margin: 0px;
+}
+
+.call2action {
+    display: flex;
+    flex: 1;
+    background-color: #3882F6 ;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px;
+    margin: 100px;
+    font-size: 30px;
+    border-radius: 25px;
+    border-color: #1f2937;
+    border-width: 5px;
+}
+
+.callbutton {
+display: flex;
+background-color: white;
+color: #1f2937;
+border: none;
+border-radius: 10px;
+padding: 20px;
+font-size: 25px;
+}
+
+.footer {
+    display: flex;
+    flex: 1 1 100%;
+    background-color: #1f2937;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    margin: 0px;
+}
